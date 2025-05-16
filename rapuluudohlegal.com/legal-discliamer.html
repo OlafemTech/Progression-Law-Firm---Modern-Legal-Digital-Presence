@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Disclaimer - Charles Rapulu Udoh</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { primary: "#0f2c59", secondary: "#b8860b" },
+            borderRadius: {
+              none: "0px",
+              sm: "4px",
+              DEFAULT: "8px",
+              md: "12px",
+              lg: "16px",
+              xl: "20px",
+              "2xl": "24px",
+              "3xl": "32px",
+              full: "9999px",
+              button: "8px",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <style>
+      :where([class^="ri-"])::before { content: "\f3c2"; }
+      body {
+          font-family: 'Poppins', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+          font-family: 'Playfair Display', serif;
+      }
+      .nav-link {
+          position: relative;
+      }
+      .nav-link::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 2px;
+          bottom: -2px;
+          left: 0;
+          background-color: #b8860b;
+          transition: width 0.3s;
+      }
+      .nav-link:hover::after {
+          width: 100%;
+      }
+      .active::after {
+          width: 100%;
+      }
+      input:focus, textarea:focus {
+          outline: none;
+          border-color: #0f2c59;
+      }
+      .language-selector:focus {
+          outline: none;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800">
+    <!-- Header & Navigation -->
+    <header class="fixed w-full z-50 bg-white bg-opacity-95 shadow-sm">
+      <div
+        class="container mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <h1 class="text-2xl font-bold text-primary">Charles Rapulu Udoh</h1>
+        </div>
+
+        <nav class="hidden md:flex space-x-8 items-center">
+          <a
+            href="https://readdy.ai/home/47113a21-ecee-4a9b-a388-5ec05f77e29e/6b88c29c-2326-4aa4-95ff-0a21c231c58c"
+            data-readdy="true"
+            class="nav-link text-gray-800 hover:text-primary transition-colors"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="nav-link text-gray-800 hover:text-primary transition-colors"
+            >About</a
+          >
+          <a
+            href="#"
+            class="nav-link text-gray-800 hover:text-primary transition-colors"
+            >Services</a
+          >
+          <a
+            href="#"
+            class="nav-link text-gray-800 hover:text-primary transition-colors"
+            >Credentials</a
+          >
+          <a
+            href="#"
+            class="nav-link text-gray-800 hover:text-primary transition-colors"
+            >Contact</a
+          >
+
+          <div class="relative ml-4">
+            <select
+              class="language-selector appearance-none bg-transparent border border-gray-300 rounded-button px-3 py-2 pr-8 cursor-pointer text-sm"
+            >
+              <option value="en">English</option>
+              <option value="fr">Français</option>
+              <option value="es">Español</option>
+              <option value="de">Deutsch</option>
+            </select>
+            <div
+              class="absolute right-2 top-1/2 transform -translate-y-1/2 pointer-events-none w-4 h-4 flex items-center justify-center"
+            >
+              <i class="ri-arrow-down-s-line"></i>
+            </div>
+          </div>
+
+          <button
+            class="bg-primary text-white px-5 py-2 rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap !rounded-button"
+          >
+            Book Consultation
+          </button>
+        </nav>
+
+        <button
+          class="md:hidden w-10 h-10 flex items-center justify-center"
+          id="mobile-menu-button"
+        >
+          <i class="ri-menu-line text-xl"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        class="md:hidden hidden bg-white w-full absolute top-full left-0 shadow-md"
+        id="mobile-menu"
+      >
+        <div class="container mx-auto px-4 py-3 flex flex-col space-y-4">
+          <a
+            href="https://readdy.ai/home/47113a21-ecee-4a9b-a388-5ec05f77e29e/6b88c29c-2326-4aa4-95ff-0a21c231c58c"
+            data-readdy="true"
+            class="text-gray-800 hover:text-primary py-2 border-b border-gray-100"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-gray-800 hover:text-primary py-2 border-b border-gray-100"
+            >About</a
+          >
+          <a
+            href="#"
+            class="text-gray-800 hover:text-primary py-2 border-b border-gray-100"
+            >Services</a
+          >
+          <a
+            href="#"
+            class="text-gray-800 hover:text-primary py-2 border-b border-gray-100"
+            >Credentials</a
+          >
+          <a
+            href="#"
+            class="text-gray-800 hover:text-primary py-2 border-b border-gray-100"
+            >Contact</a
+          >
+
+          <div
+            class="flex items-center justify-between py-2 border-b border-gray-100"
+          >
+            <span class="text-gray-800">Language</span>
+            <select
+              class="language-selector appearance-none bg-transparent border border-gray-300 rounded-button px-3 py-2 pr-8 cursor-pointer text-sm"
+            >
+              <option value="en">English</option>
+              <option value="fr">Français</option>
+              <option value="es">Español</option>
+              <option value="de">Deutsch</option>
+            </select>
+          </div>
+
+          <button
+            class="bg-primary text-white px-5 py-3 rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap !rounded-button"
+          >
+            Book Consultation
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-50 pt-24 pb-4">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center text-sm text-gray-600">
+          <a
+            href="https://readdy.ai/home/47113a21-ecee-4a9b-a388-5ec05f77e29e/6b88c29c-2326-4aa4-95ff-0a21c231c58c"
+            data-readdy="true"
+            class="hover:text-primary transition-colors"
+            >Home</a
+          >
+          <span class="mx-2">/</span>
+          <span class="text-primary font-medium">Legal Disclaimer</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="py-12">
+      <div class="container mx-auto px-4 max-w-4xl">
+        <div class="mb-12 text-center">
+          <h1 class="text-4xl md:text-5xl font-bold text-primary mb-6">
+            Legal Disclaimer
+          </h1>
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            This document outlines important legal information regarding the use
+            of our website and services. Please read carefully before
+            proceeding.
+          </p>
+        </div>
+
+        <div class="bg-white shadow-md rounded-lg p-8 mb-10">
+          <div class="mb-10">
+            <h2 class="text-2xl font-bold text-primary mb-4">Terms of Use</h2>
+            <p class="text-gray-700 mb-4">
+              By accessing and using this website, you accept and agree to be
+              bound by the terms and provisions of this disclaimer. The content
+              provided on this website is for informational purposes only and
+              does not constitute legal advice.
+            </p>
+            <p class="text-gray-700">
+              Charles Rapulu Udoh reserves the right to modify, amend, or update
+              these terms at any time without prior notice. Your continued use
+              of this website following any changes constitutes your acceptance
+              of such changes.
+            </p>
+          </div>
+
+          <div class="mb-10">
+            <h2 class="text-2xl font-bold text-primary mb-4">
+              Limitations of Liability
+            </h2>
+            <p class="text-gray-700 mb-4">
+              In no event shall Charles Rapulu Udoh, his affiliates, or their
+              respective partners, agents, or employees be liable for any
+              direct, indirect, incidental, special, exemplary, or consequential
+              damages (including, but not limited to, procurement of substitute
+              goods or services, loss of use, data, or profits, or business
+              interruption).
+            </p>
+            <p class="text-gray-700 mb-4">
+              Such limitation of liability shall apply whether in an action of
+              contract, negligence, or other tortious action, even if advised of
+              the possibility of such damages.
+            </p>
+            <div
+              class="bg-gray-50 p-4 rounded-lg border-l-4 border-secondary mb-4"
+            >
+              <p class="text-gray-700 font-medium">
+                Charles Rapulu Udoh does not warrant that the website will be
+                error-free, uninterrupted, secure, or that any defects will be
+                corrected.
+              </p>
+            </div>
+            <p class="text-gray-700">
+              You expressly agree that your use of this website is at your sole
+              risk.
+            </p>
+          </div>
+
+          <div class="mb-10">
+            <h2 class="text-2xl font-bold text-primary mb-4">
+              Accuracy of Information
+            </h2>
+            <p class="text-gray-700 mb-4">
+              While we strive to provide accurate and up-to-date information,
+              Charles Rapulu Udoh makes no representations or warranties of any
+              kind, express or implied, about the completeness, accuracy,
+              reliability, suitability, or availability of the information
+              contained on this website.
+            </p>
+            <p class="text-gray-700 mb-4">
+              Legal information may change rapidly, and some information may be
+              out of date or contain inaccuracies. The information provided does
+              not reflect the most current legal developments, verdicts, or
+              settlements.
+            </p>
+            <ul class="list-disc pl-6 text-gray-700 mb-4 space-y-2">
+              <li>
+                Information is provided "as is" without warranty of any kind
+              </li>
+              <li>
+                Content may not be applicable to your specific circumstances
+              </li>
+              <li>Legal standards and requirements vary by jurisdiction</li>
+              <li>
+                Changes in the law or facts may affect the validity of
+                information
+              </li>
+            </ul>
+            <p class="text-gray-700">
+              You should not act or refrain from acting based on any information
+              on this website without seeking appropriate professional advice.
+            </p>
+          </div>
+
+          <div class="mb-10">
+            <h2 class="text-2xl font-bold text-primary mb-4">
+              Attorney-Client Relationship
+            </h2>
+            <p class="text-gray-700 mb-4">
+              The content on this website is not intended to and does not
+              constitute legal advice, nor does it create an attorney-client
+              relationship between you and Charles Rapulu Udoh. Merely
+              contacting Charles Rapulu Udoh or sending an email or other
+              communication does not create an attorney-client relationship.
+            </p>
+            <div
+              class="bg-gray-50 p-4 rounded-lg border-l-4 border-primary mb-4"
+            >
+              <p class="text-gray-700 font-medium">
+                An attorney-client relationship is only formed when there is an
+                express agreement between Charles Rapulu Udoh and a client to
+                provide legal services, typically through a formal engagement
+                letter.
+              </p>
+            </div>
+            <p class="text-gray-700">
+              Do not send confidential information until an attorney-client
+              relationship has been established. Any information sent prior to
+              establishing such a relationship may not be privileged or
+              confidential.
+            </p>
+          </div>
+
+          <div class="mb-10">
+            <h2 class="text-2xl font-bold text-primary mb-4">
+              Jurisdictional Limitations
+            </h2>
+            <p class="text-gray-700 mb-4">
+              Charles Rapulu Udoh is licensed to practice law in specific
+              jurisdictions. The information on this website may not be
+              applicable to your jurisdiction, and laws vary significantly
+              between countries, states, and localities.
+            </p>
+            <p class="text-gray-700">
+              Unless expressly stated, Charles Rapulu Udoh does not intend to
+              represent clients in jurisdictions where he is not licensed or
+              where such representation would be prohibited by law.
+            </p>
+          </div>
+
+          <div class="mb-10">
+            <h2 class="text-2xl font-bold text-primary mb-4">
+              Intellectual Property Rights
+            </h2>
+            <p class="text-gray-700 mb-4">
+              All content on this website, including but not limited to text,
+              graphics, logos, images, audio clips, digital downloads, and data
+              compilations, is the property of Charles Rapulu Udoh or his
+              content suppliers and is protected by international copyright
+              laws.
+            </p>
+            <p class="text-gray-700">
+              Reproduction, distribution, or republication of materials
+              contained on this website without prior written permission from
+              Charles Rapulu Udoh is prohibited.
+            </p>
+          </div>
+
+          <div class="mb-10">
+            <h2 class="text-2xl font-bold text-primary mb-4">
+              Privacy & Data Protection
+            </h2>
+            <p class="text-gray-700 mb-4">
+              Your use of this website is also governed by our Privacy Policy,
+              which outlines how we collect, use, and protect your personal
+              information. By using this website, you consent to the data
+              practices described in our Privacy Policy.
+            </p>
+            <p class="text-gray-700">
+              Charles Rapulu Udoh is committed to protecting your privacy and
+              complying with applicable data protection laws.
+            </p>
+          </div>
+
+          <div>
+            <h2 class="text-2xl font-bold text-primary mb-4">
+              Modifications to Terms
+            </h2>
+            <p class="text-gray-700 mb-4">
+              Charles Rapulu Udoh reserves the right to revise these terms at
+              any time without notice. By using this website, you agree to be
+              bound by the then-current version of these terms.
+            </p>
+            <p class="text-gray-700">
+              It is your responsibility to review this Legal Disclaimer
+              periodically for changes.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg p-6 mb-8">
+          <div class="flex items-start">
+            <div
+              class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4"
+            >
+              <i class="ri-information-line text-primary text-xl"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold mb-2">Have Questions?</h3>
+              <p class="text-gray-700 mb-4">
+                If you have any questions about this Legal Disclaimer, please
+                contact us at
+                <a
+                  href="mailto:contact@charlesudoh.com"
+                  class="text-primary hover:underline"
+                  >contact@charlesudoh.com</a
+                >
+                or through our contact form.
+              </p>
+              <a
+                href="https://readdy.ai/home/47113a21-ecee-4a9b-a388-5ec05f77e29e/6b88c29c-2326-4aa4-95ff-0a21c231c58c#contact"
+                data-readdy="true"
+                class="inline-block bg-primary text-white px-5 py-2 rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap !rounded-button"
+              >
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a
+            href="https://readdy.ai/home/47113a21-ecee-4a9b-a388-5ec05f77e29e/6b88c29c-2326-4aa4-95ff-0a21c231c58c"
+            data-readdy="true"
+            class="inline-flex items-center text-primary hover:text-secondary transition-colors"
+          >
+            <i class="ri-arrow-left-line mr-2"></i> Back to Home
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div>
+            <h3 class="text-xl font-bold mb-6">Charles Rapulu Udoh</h3>
+            <p class="text-gray-400 mb-6">
+              Tech Startup, Compliance & Investment Lawyer with global legal
+              experience.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="text-gray-400 hover:text-white transition-colors"
+              >
+                <i class="ri-linkedin-fill text-xl"></i>
+              </a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-white transition-colors"
+              >
+                <i class="ri-twitter-x-fill text-xl"></i>
+              </a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-white transition-colors"
+              >
+                <i class="ri-mail-fill text-xl"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold mb-6">Quick Links</h3>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  href="https://readdy.ai/home/47113a21-ecee-4a9b-a388-5ec05f77e29e/6b88c29c-2326-4aa4-95ff-0a21c231c58c"
+                  data-readdy="true"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Credentials</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold mb-6">Legal Information</h3>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-gray-400 hover:text-white transition-colors"
+                  >Terms of Service</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-secondary hover:text-white transition-colors"
+                  >Legal Disclaimer</a
+                >
+              </li>
+            </ul>
+            <p class="text-gray-400 mt-6 text-sm">Last Updated: May 16, 2025</p>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"
+        >
+          <p class="text-gray-400 text-sm mb-4 md:mb-0">
+            © 2025 Charles Rapulu Udoh. All rights reserved.
+          </p>
+
+          <div class="flex space-x-6">
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition-colors text-sm"
+              >Privacy Policy</a
+            >
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white transition-colors text-sm"
+              >Terms of Service</a
+            >
+            <a
+              href="#"
+              class="text-secondary hover:text-white transition-colors text-sm"
+              >Legal Disclaimer</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button
+      id="back-to-top"
+      class="fixed bottom-6 right-6 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300"
+    >
+      <i class="ri-arrow-up-line text-xl"></i>
+    </button>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById("mobile-menu-button");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        mobileMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.toggle("hidden");
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileLinks = mobileMenu.querySelectorAll("a");
+        mobileLinks.forEach((link) => {
+          link.addEventListener("click", function () {
+            mobileMenu.classList.add("hidden");
+          });
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Back to top button functionality
+        const backToTopButton = document.getElementById("back-to-top");
+
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset > 300) {
+            backToTopButton.classList.remove("opacity-0", "invisible");
+            backToTopButton.classList.add("opacity-100", "visible");
+          } else {
+            backToTopButton.classList.remove("opacity-100", "visible");
+            backToTopButton.classList.add("opacity-0", "invisible");
+          }
+        });
+
+        backToTopButton.addEventListener("click", function () {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
