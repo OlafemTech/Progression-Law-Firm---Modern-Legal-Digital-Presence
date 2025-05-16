@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Sitemap: https://rapuluudohlegal.com/sitemap.xml
+
+# Allow all bots to crawl all content
+User-agent: *
+Disallow:
+
+# Specific instructions for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Prevent crawling of any private or admin areas if they exist
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
